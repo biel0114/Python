@@ -1,0 +1,8 @@
+while True:
+ N12 = int(input('Qual número que quer multiplicar: '))
+ N11 = int(input('Quer começar a multiplicar por onde: '))
+ while N12 > 0:
+  print("{} x {} = {}".format(N12, N11, N12*N11))
+  N11+=1
+  if N11 == 11:
+   break
